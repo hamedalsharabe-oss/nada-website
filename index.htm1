@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<title>شركة النهضة المتحدة للصناعة</title>
+
+<!-- Tailwind -->
+<script src="https://cdn.tailwindcss.com"></script>
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+body {
+  font-family: 'Cairo', sans-serif;
+  scroll-behavior: smooth;
+}
+.hero-bg {
+  background: linear-gradient(rgba(10,20,40,0.8), rgba(10,20,40,0.9)),
+              url('https://images.unsplash.com/photo-1581093588401-22f8b0b90e3f');
+  background-size: cover;
+  background-position: center;
+}
+</style>
+</head>
+
+<body class="bg-[#0a1428] text-white">
+
+<!-- NAVBAR -->
+<header class="fixed w-full bg-[#0a1428]/90 backdrop-blur z-50">
+  <div class="max-w-7xl mx-auto flex justify-between items-center p-4">
+    <h1 class="text-xl font-bold text-[#60a5fa]">النهضة المتحدة</h1>
+
+    <nav class="hidden md:flex gap-8 text-gray-300">
+      <a href=" " class="hover:text-white">الرئيسية</a >
+      <a href="#about" class="hover:text-white">من نحن</a >
+      <a href="#services" class="hover:text-white">خدماتنا</a >
+      <a href="#why" class="hover:text-white">لماذا نحن</a >
+      <a href="#contact" class="hover:text-white">تواصل</a >
+    </nav>
+
+    <a href="#contact" class="bg-[#3b82f6] px-4 py-2 rounded-lg hover:bg-[#2563eb]">
+      تواصل معنا
+    </a >
+  </div>
+</header>
+
+<!-- HERO -->
+<section id="home" class="hero-bg h-screen flex items-center justify-center text-center px-4">
+  <div>
+    <h1 class="text-4xl md:text-6xl font-bold mb-6">
+      شركة النهضة المتحدة للصناعة
+    </h1>
+    <p class="text-gray-300 mb-8 max-w-xl mx-auto">
+      حلول صناعية متطورة بمعايير عالمية وجودة لا تقبل المنافسة
+    </p >
+
+    <div class="flex justify-center gap-4">
+      <a href="#services" class="bg-[#3b82f6] px-6 py-3 rounded-lg hover:bg-[#2563eb]">
+        خدماتنا
+      </a >
+      <a href="#contact" class="border border-white px-6 py-3 rounded-lg hover:bg-white hover:text-black">
+        تواصل الآن
+      </a >
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="py-20 text-center max-w-4xl mx-auto px-6">
+  <h2 class="text-3xl font-bold mb-6">من نحن</h2>
+  <p class="text-gray-400 leading-relaxed">
+    شركة النهضة المتحدة للصناعة هي شركة رائدة في تقديم الحلول الصناعية الحديثة،
+    نسعى لتقديم أفضل المنتجات والخدمات بأعلى جودة، مع التركيز على الابتكار والاستدامة.
+  </p >
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="py-20 bg-[#0b1a2f]">
+  <h2 class="text-3xl font-bold text-center mb-12">خدماتنا</h2>
+
+  <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto px-6">
+    <div class="bg-[#161b22] p-6 rounded-xl hover:scale-105 transition">
+      <h3 class="text-xl mb-3 text-[#60a5fa]">التصنيع</h3>
+      <p class="text-gray-400">تصنيع منتجات صناعية عالية الجودة</p >
+    </div>
+
+    <div class="bg-[#161b22] p-6 rounded-xl hover:scale-105 transition">
+      <h3 class="text-xl mb-3 text-[#60a5fa]">الهندسة</h3>
+      <p class="text-gray-400">حلول هندسية متقدمة</p >
+    </div>
+
+    <div class="bg-[#161b22] p-6 rounded-xl hover:scale-105 transition">
+      <h3 class="text-xl mb-3 text-[#60a5fa]">الصيانة</h3>
+      <p class="text-gray-400">خدمات صيانة احترافية</p >
+    </div>
+  </div>
+</section>
+
+<!-- WHY US -->
+<section id="why" class="py-20">
+  <h2 class="text-3xl font-bold text-center mb-12">لماذا تختارنا</h2>
+
+  <div class="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto px-6 text-center">
+    <div class="p-6">
+      <h3 class="text-xl mb-2 text-[#60a5fa]">جودة عالية</h3>
+      <p class="text-gray-400">أفضل معايير الجودة</p >
+    </div>
+
+    <div class="p-6">
+      <h3 class="text-xl mb-2 text-[#60a5fa]">خبرة طويلة</h3>
+      <p class="text-gray-400">سنوات من الخبرة</p >
+    </div>
+
+    <div class="p-6">
+      <h3 class="text-xl mb-2 text-[#60a5fa]">دعم مستمر</h3>
+      <p class="text-gray-400">خدمة عملاء متميزة</p >
+    </div>
+  </div>
+</section>
+
+<!-- CLIENTS -->
+<section class="py-20 bg-[#0b1a2f] text-center">
+  <h2 class="text-3xl font-bold mb-10">عملاؤنا</h2>
+
+  <div class="flex justify-center gap-10 text-gray-500 text-lg">
+    <span>Client 1</span>
+    <span>Client 2</span>
+    <span>Client 3</span>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="py-20 text-center px-6">
+  <h2 class="text-3xl font-bold mb-8">تواصل معنا</h2>
+
+  <form class="max-w-xl mx-auto space-y-4">
+    <input type="text" placeholder="الاسم" class="w-full p-3 rounded bg-[#161b22] border border-gray-700">
+    <input type="email" placeholder="البريد الإلكتروني" class="w-full p-3 rounded bg-[#161b22] border border-gray-700">
+    <textarea placeholder="رسالتك" class="w-full p-3 rounded bg-[#161b22] border border-gray-700"></textarea>
+
+    <button class="bg-[#3b82f6] px-6 py-3 rounded hover:bg-[#2563eb]">
+      إرسال
+    </button>
+  </form>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-black text-center p-6 text-gray-500">
+  © 2026 شركة النهضة المتحدة للصناعة - جميع الحقوق محفوظة
+</footer>
+
+</body>
+</html>
